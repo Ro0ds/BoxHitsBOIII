@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace BoxHitsBOIII_WPF.Enums
+namespace BoxHitsBOIII.Enums
 {
     public enum Maps
     {

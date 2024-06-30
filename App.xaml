@@ -1,7 +1,7 @@
-﻿<Application x:Class="BoxHitsBOIII_WPF.App"
+﻿<Application x:Class="BoxHitsBOIII.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:BoxHitsBOIII_WPF"
+             xmlns:local="clr-namespace:BoxHitsBOIII"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

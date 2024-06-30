@@ -3,11 +3,12 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
-    <RootNamespace>BoxHitsBOIII_WPF</RootNamespace>
+    <RootNamespace>BoxHitsBOIII</RootNamespace>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
     <ApplicationIcon>Icon\Icon.ico</ApplicationIcon>
+    <AssemblyName>BoxHitsBOIII</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

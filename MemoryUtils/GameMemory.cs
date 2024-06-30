@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace BoxHitsBOIII_WPF.MemoryUtils
+namespace BoxHitsBOIII.MemoryUtils
 {
     public static class GameMemory
     {

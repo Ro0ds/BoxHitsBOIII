@@ -1,4 +1,4 @@
-﻿using BoxHitsBOIII_WPF.MemoryUtils;
+﻿using BoxHitsBOIII.MemoryUtils;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -7,7 +7,7 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 
-namespace BoxHitsBOIII_WPF
+namespace BoxHitsBOIII
 {
     public partial class MainWindow : Window, INotifyPropertyChanged
     {

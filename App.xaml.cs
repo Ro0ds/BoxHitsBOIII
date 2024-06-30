@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace BoxHitsBOIII_WPF
+namespace BoxHitsBOIII
 {
     /// <summary>
     /// Interaction logic for App.xaml
