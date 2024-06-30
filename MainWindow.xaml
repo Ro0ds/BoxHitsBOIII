@@ -1,0 +1,53 @@
+﻿<Window x:Class="BoxHitsBOIII_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BoxHitsBOIII_WPF"
+        mc:Ignorable="d"
+        Title="Box Hits BOIII" 
+        Name="BoxHitsBOIII" 
+        Height="107" 
+        Width="332" 
+        WindowStyle="None" 
+        Background="Black" 
+        BorderThickness="5" 
+        MouseLeftButtonDown="Window_MouseLeftButtonDown" 
+        Loaded="Window_Loaded"
+        Topmost="True" 
+        ResizeMode="CanResize" 
+        AllowsTransparency="False" 
+        UseLayoutRounding="True" 
+        Closing="Window_Closing">
+
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0"/>
+    </WindowChrome.WindowChrome>
+
+    <Window.Resources>
+        <ContextMenu x:Key="contextMenu">
+            <MenuItem Header="Change Background" Name="ChangeBackground" 
+                      Click="ChangeBackground_Click" IsCheckable="False"/>
+            <MenuItem Header="Exit" Name="Exit" 
+                      Click="Exit_Click" IsCheckable="False"/>
+        </ContextMenu>
+    </Window.Resources>
+
+    <Viewbox HorizontalAlignment="Left" VerticalAlignment="Stretch">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Column="0" HorizontalAlignment="Left" 
+                       VerticalAlignment="Center" Text="Box Hits:" 
+                       Foreground="White" FontSize="40" Margin="10"/>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Left" 
+                       VerticalAlignment="Center" 
+                       Foreground="White" FontSize="40"
+                       Name="tbHits"
+                       Text="{Binding Hits, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+        </Grid>
+    </Viewbox>
+</Window>
