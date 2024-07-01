@@ -57,6 +57,11 @@ namespace BoxHitsBOIII
             MessageBox.Show("change background, init?");
         }
 
+        private void ChangeTextColor_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         private void Exit_Click(object sender, RoutedEventArgs e)
         {
             BoxHitsBOIII.Close();

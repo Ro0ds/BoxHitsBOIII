@@ -28,6 +28,8 @@
         <ContextMenu x:Key="contextMenu">
             <MenuItem Header="Change Background" Name="ChangeBackground" 
                       Click="ChangeBackground_Click" IsCheckable="False"/>
+            <MenuItem Header="Change Texto Color" Name="ChangeTextColor"
+                      Click="ChangeTextColor_Click" IsCheckable="False" />
             <MenuItem Header="Exit" Name="Exit" 
                       Click="Exit_Click" IsCheckable="False"/>
         </ContextMenu>
